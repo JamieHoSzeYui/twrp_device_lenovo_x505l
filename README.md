@@ -1,15 +1,10 @@
-# TWRP device tree for Lenovo Smart Tab M10 HD wifi (TB-X505F)
-
-## Release info
-This is an unofficial build.  It decrypts data partition.  MTP working.  Install at your own risk.
-
-Build with TWRP for Android 10.0.
+# TWRP device tree for Lenovo Smart Tab M10 HD LTE Data (TB-X505L)
 
 ### About Device
 
-![Lenovo Smart Tab M10 HD](https://static.lenovo.com/ww/campaigns/2019/smarttab/lenovo-smart-tab-gallery-5.jpg "Lenovo Smart Tab M10 HD (TB-X505F)")
+![Lenovo Smart Tab M10 HD](https://static.lenovo.com/ww/campaigns/2019/smarttab/lenovo-smart-tab-gallery-5.jpg "Lenovo Smart Tab M10 HD (TB-X505L)")
 
-Recovery Device Tree for Lenovo Smart Tab M10 HD wifi (TB-X505F)
+Recovery Device Tree for Lenovo Smart Tab M10 HD LTE Data (TB-X505L)
 ================================================================
 Component   | Specs
 -------:|:-------------------------
@@ -26,15 +21,6 @@ Front Camera | 2.0 MP, fixed focus
 Rear Camera  | 5.0 MP, auto focus
 Wifi | dual band, 802.11a/ac/b/g/n
 Bluetooth | v4.2
-USB | USB-C (micro USB)
+USB | micro USB
 Release Date | April 2019
 
-
-To build:
-
-```
-. build/envsetup.sh
-lunch omni_X505F-eng
-make clean 
-mka recoveryimage
-```

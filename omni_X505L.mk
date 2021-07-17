@@ -16,7 +16,7 @@
 ALLOW_MISSING_DEPENDENCIES := true
 
 # Release name
-PRODUCT_RELEASE_NAME := X505F
+PRODUCT_RELEASE_NAME := X505L
 
 # inherit the usual stuff...
 #$(call inherit-product, build/target/product/product_launched_with_p.mk)
@@ -24,10 +24,10 @@ $(call inherit-product, build/target/product/aosp_base.mk)
 $(call inherit-product, vendor/omni/config/common_tablet.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_X505F
-PRODUCT_DEVICE := X505F
+PRODUCT_NAME := omni_X505L
+PRODUCT_DEVICE := X505L
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo TB-X505F
+PRODUCT_MODEL := Lenovo TB-X505L
 PRODUCT_MANUFACTURER := LENOVO
 
 # for FBE decryption 
